@@ -1,5 +1,8 @@
 
 Image attribution:
+
+Header - Photo by <a href="https://unsplash.com/@bergen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bergen Public Library</a> on <a href="https://unsplash.com/photos/a-beige-and-green-wallpaper-with-a-design-on-it-JSvyNuXGYGE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 Hero - Photo by <a href="https://unsplash.com/@leftfield_corn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Leftfield Corn</a> on <a href="https://unsplash.com/photos/abstract-pattern-of-transparent-organic-shapes-on-black-r7ByDF1e46M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Icon Plant - Photo by <a href="https://unsplash.com/@linusbelanger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Linus Belanger</a> on <a href="https://unsplash.com/photos/cherry-blossoms-on-orange-background-fsFK_XiKJAc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
