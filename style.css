@@ -1,0 +1,45 @@
+* {
+  font-family: Roboto;
+  background-color: #1f2937;
+}
+
+div.img {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero {
+  font-size: 48px;
+  color: #f9faf8;
+  weight: 900;
+}
+
+.hero-left,
+.hero-right {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.footer {
+  background-color: #3882f6;
+}
+
+.info p {
+  font-size: 36px;
+  color: #1f2937;
+  weight: 900;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  gap: 5px 52px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
