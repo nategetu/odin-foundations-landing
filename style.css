@@ -3,9 +3,16 @@
   background-color: #1f2937;
 }
 
+img {
+  width: 100px;
+  height: 100px;
+}
+
 div.img {
   font-size: 24px;
   color: #f9faf8;
+  width: 100px;
+  height: 100px;
 }
 
 .hero {
@@ -18,6 +25,11 @@ div.img {
 .hero-right {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero-right img {
+  width: 300px;
+  height: 200px;
 }
 
 .footer {
