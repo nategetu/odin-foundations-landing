@@ -1,17 +1,20 @@
 * {
   font-family: Roboto;
-  background-color: #1f2937;
-  color:#f9faf8
+  color: #f9faf8;
+  padding: 0;
+  margin: auto;
 }
 
 img {
   width: 100px;
   height: 100px;
+  border-radius: 15px;
 }
 
 .header {
   display: flex;
   align-items: center;
+  background-color: #1f2937;
 }
 
 .header-left img {
@@ -23,6 +26,8 @@ img {
   display: flex;
   justify-content: end;
   width: 100%;
+  list-style-type: none;
+  margin: 20px;
 }
 
 div.img {
@@ -33,15 +38,22 @@ div.img {
 }
 
 .hero {
+  display: flex;
   font-size: 48px;
   color: #f9faf8;
   weight: 900;
+  background-color: #1f2937;
+  justify-content: flex-start;
+  gap: 5px
 }
 
 .hero-left,
 .hero-right {
   font-size: 18px;
   color: #e5e7eb;
+  width: 400px;
+  padding-bottom: 100px;
+
 }
 
 .hero-right img {
@@ -49,26 +61,115 @@ div.img {
   height: 200px;
 }
 
-.footer {
-  background-color: #3882f6;
+.hero-left-main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
 }
 
-.info p {
+.hero-left-sub {
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+
+.hero button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: 3882f6;
+  padding: 5px 20px;
+  text-align: right;
+  margin-top: 5px;
+}
+
+
+.info-header {
+  display: flex;
   font-size: 36px;
   color: #1f2937;
-  weight: 900;
+  font-weight: 900;
+  background-color: white;
+}
+
+.info-title {
+  color: #1f2937;
+  background-color: white;
+  padding: 20px;
 }
 
 .info {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
-  gap: 5px 52px;
+  gap: 5px 25px;
+  background-color: #f9faf8;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.text {
+  background-color: #f9faf8;
+  color: #1f2937;
 }
 
 .quote {
   background-color: #e5e7eb;
-  font-size: 36px;
+  padding: 50px;
+}
+
+.quote-text,
+.quote-attribution {
   color: #1f2937;
+  background-color: #e5e7eb;
+  font-size: 36px;
   font-weight: 300;
   font-style: italic;
+  margin: 0px 200px;
+}
+
+.quote-attribution {
+  font-weight: 500;
+  text-align: right;
+}
+
+.call {
+  padding: 100px 250px;
+}
+
+.call-main {
+  background-color: #3882f6;
+  display: flex;
+  border: #3882f6;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.call-text {
+  padding: 20px;
+  margin: 10px 20px;
+}
+
+.call-text-head {
+  font-size: 36px;
+  font-weight: 500;
+}
+.call-text-sub {
+  font-size: 18px;
+}
+
+.call-main button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  padding: 2px 20px;
+  margin: 50px 20px;
+  text-align: right;
+}
+
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 25px;
 }
